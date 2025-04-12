@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-gray-50">
+    <div class="hero-section">
+        <h1 class="text-4xl font-bold text-center mb-4">Delicious Recipes 🍽️</h1>
+        <p class="text-white text-center opacity-90">Discover amazing recipes for every meal</p>
+    </div>
+    <div class="container mx-auto p-4">
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="search" 
+                class="search-box" 
+                placeholder="Search for recipes, ingredients, or categories..."
+                autocomplete="off"
+            >
+            <i class="fas fa-search search-icon"></i>
+            <button class="clear-search" id="clearSearch">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="search-suggestions" id="searchSuggestions"></div>
+        </div>
+
+        <div class="categories-section">
+            <h2 class="text-2xl font-bold mb-4">Categories</h2>
+            <div id="categories" class="grid grid-cols-2 md:grid-cols-4 gap-4"></div>
+        </div>
+
+        <div class="recipes-section mt-8">
+            <h2 class="text-2xl font-bold mb-4">Popular Recipes</h2>
+            <div id="recipes" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+        </div>
+    </div>
+</body>
+</html>
