@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const categories = ["Breakfast", "Lunch", "Dinner", "Dessert"];
+    const categories = ["Breakfast", "Lunch", "Dinner", "Dessert", "Drinks", "Sides"];
     const categoryContainer = document.getElementById("categories");
     const recipeContainer = document.getElementById("recipes");
     const searchBox = document.getElementById("search");
     const clearSearch = document.getElementById("clearSearch");
     const searchSuggestions = document.getElementById("searchSuggestions");
 
-    // Dummy recipes
+    // Updated recipes array with new recipes
     const recipes = [
         { id: 1, name: "Fluffy Pancakes", category: "Breakfast", image: "images/pancakes.jpg", rating: 4.8 },
         { id: 2, name: "Grilled Chicken Salad", category: "Lunch", image: "images/chicken-salad.jpg", rating: 4.6 },
@@ -19,7 +19,16 @@ document.addEventListener("DOMContentLoaded", function() {
         { id: 9, name: "Apple Cinnamon Oatmeal", category: "Breakfast", image: "images/oatmeal.jpg", rating: 4.3 },
         { id: 10, name: "Tiramisu", category: "Dessert", image: "images/tiramisu.jpg", rating: 4.7 },
         { id: 11, name: "Sushi Roll Platter", category: "Dinner", image: "images/sushi.jpg", rating: 4.8 },
-        { id: 12, name: "Fresh Fruit Parfait", category: "Breakfast", image: "images/parfait.jpg", rating: 4.5 }
+        { id: 12, name: "Fresh Fruit Parfait", category: "Breakfast", image: "images/parfait.jpg", rating: 4.5 },
+        { id: 13, name: "Fried Chicken", category: "Dinner", image: "images/fried-chicken.jpg", rating: 4.8 },
+        { id: 14, name: "Paneer Tikka Masala", category: "Dinner", image: "images/paneer-tikka-masala.jpg", rating: 4.7 },
+        { id: 15, name: "Chocolate Ice Cream", category: "Dessert", image: "images/chocolate-icecream.jpg", rating: 4.9 },
+        { id: 16, name: "Mango Milkshake", category: "Drinks", image: "images/mango-shake.jpg", rating: 4.6 },
+        { id: 17, name: "Chicken Biryani", category: "Dinner", image: "images/chicken-biryani.jpg", rating: 4.9 },
+        { id: 18, name: "Kimchi", category: "Sides", image: "images/kimchi.jpg", rating: 4.7 },
+        { id: 19, name: "Classic Fish & Chips", category: "Dinner", image: "images/fish-and-chips.jpg", rating: 4.8 },
+        { id: 20, name: "Vegetable Salad", category: "Lunch", image: "images/vegetable-salad.jpg", rating: 4.5 },
+        { id: 21, name: "Gulab Jamun", category: "Dessert", image: "images/gulab-jamun.jpg", rating: 4.9 }
     ];
 
     // Load categories

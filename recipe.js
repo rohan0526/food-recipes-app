@@ -458,6 +458,330 @@ document.addEventListener("DOMContentLoaded", function() {
                 carbs: "42g",
                 fat: "9g"
             }
+        },
+        {
+            id: 13,
+            name: "Fried Chicken",
+            category: "Dinner",
+            image: "images/fried-chicken.jpg",
+            prepTime: "30 mins",
+            cookTime: "25 mins",
+            servings: 4,
+            difficulty: "Medium",
+            rating: 4.8,
+            ingredients: [
+                "4 chicken pieces",
+                "2 cups buttermilk",
+                "2 cups all-purpose flour",
+                "1 tbsp paprika",
+                "1 tbsp garlic powder",
+                "1 tbsp black pepper",
+                "2 tsp salt",
+                "Oil for frying"
+            ],
+            instructions: [
+                "Marinate chicken in buttermilk for 2 hours",
+                "Mix flour with spices in a bowl",
+                "Coat chicken pieces in seasoned flour",
+                "Heat oil to 350°F",
+                "Fry chicken for 12-15 minutes until golden",
+                "Drain on paper towels",
+                "Serve hot"
+            ],
+            tips: "Double-dip chicken in buttermilk and flour for extra crispiness.",
+            nutrition: {
+                calories: "420",
+                protein: "28g",
+                carbs: "22g",
+                fat: "26g"
+            }
+        },
+        {
+            id: 14,
+            name: "Paneer Tikka Masala",
+            category: "Dinner",
+            image: "images/paneer-tikka-masala.jpg",
+            prepTime: "25 mins",
+            cookTime: "30 mins",
+            servings: 4,
+            difficulty: "Medium",
+            rating: 4.7,
+            ingredients: [
+                "500g paneer, cubed",
+                "2 onions, pureed",
+                "3 tomatoes, pureed",
+                "2 tbsp ginger-garlic paste",
+                "2 tbsp butter",
+                "1 cup heavy cream",
+                "Garam masala",
+                "Kasuri methi",
+                "Salt to taste"
+            ],
+            instructions: [
+                "Marinate paneer in yogurt and spices",
+                "Grill paneer until charred",
+                "Sauté onion puree until golden",
+                "Add tomato puree and spices",
+                "Simmer with cream",
+                "Add grilled paneer",
+                "Garnish with cream and kasuri methi"
+            ],
+            tips: "Soak paneer in warm water before marinating for softer texture.",
+            nutrition: {
+                calories: "380",
+                protein: "18g",
+                carbs: "12g",
+                fat: "32g"
+            }
+        },
+        {
+            id: 15,
+            name: "Chocolate Ice Cream",
+            category: "Dessert",
+            image: "images/chocolate-icecream.jpg",
+            prepTime: "20 mins",
+            cookTime: "4 hours",
+            servings: 6,
+            difficulty: "Easy",
+            rating: 4.9,
+            ingredients: [
+                "2 cups heavy cream",
+                "1 cup milk",
+                "3/4 cup sugar",
+                "1/2 cup cocoa powder",
+                "1 tsp vanilla extract",
+                "Pinch of salt"
+            ],
+            instructions: [
+                "Whisk cocoa, sugar, and salt",
+                "Add milk and blend until smooth",
+                "Stir in heavy cream and vanilla",
+                "Churn in ice cream maker",
+                "Freeze for 4 hours",
+                "Let soften slightly before serving"
+            ],
+            tips: "Use high-quality cocoa powder for richer flavor.",
+            nutrition: {
+                calories: "320",
+                protein: "4g",
+                carbs: "28g",
+                fat: "22g"
+            }
+        },
+        {
+            id: 16,
+            name: "Mango Milkshake",
+            category: "Drinks",
+            image: "images/mango-shake.jpg",
+            prepTime: "10 mins",
+            cookTime: "0 mins",
+            servings: 2,
+            difficulty: "Easy",
+            rating: 4.6,
+            ingredients: [
+                "2 ripe mangoes",
+                "1 cup yogurt",
+                "1/2 cup milk",
+                "2 tbsp honey",
+                "Cardamom powder",
+                "Ice cubes"
+            ],
+            instructions: [
+                "Peel and chop mangoes",
+                "Blend mangoes until smooth",
+                "Add yogurt, milk, and honey",
+                "Blend with ice cubes",
+                "Add cardamom powder",
+                "Serve chilled"
+            ],
+            tips: "Use Alphonso mangoes when in season for best flavor.",
+            nutrition: {
+                calories: "180",
+                protein: "5g",
+                carbs: "35g",
+                fat: "4g"
+            }
+        },
+        {
+            id: 17,
+            name: "Chicken Biryani",
+            category: "Dinner",
+            image: "images/chicken-biryani.jpg",
+            prepTime: "40 mins",
+            cookTime: "50 mins",
+            servings: 6,
+            difficulty: "Hard",
+            rating: 4.9,
+            ingredients: [
+                "1kg chicken",
+                "500g basmati rice",
+                "2 onions, sliced",
+                "Yogurt for marination",
+                "Whole spices",
+                "Saffron",
+                "Ghee",
+                "Mint and coriander"
+            ],
+            instructions: [
+                "Marinate chicken with yogurt and spices",
+                "Cook rice with whole spices until 70% done",
+                "Layer chicken and rice",
+                "Add saffron milk and ghee",
+                "Seal pot with dough",
+                "Cook on low heat for 25 minutes",
+                "Let rest for 10 minutes before opening"
+            ],
+            tips: "Soak rice for 30 minutes before cooking for best results.",
+            nutrition: {
+                calories: "450",
+                protein: "32g",
+                carbs: "48g",
+                fat: "18g"
+            }
+        },
+        {
+            id: 18,
+            name: "Kimchi",
+            category: "Sides",
+            image: "images/kimchi.jpg",
+            prepTime: "1 hour",
+            cookTime: "3-5 days",
+            servings: 8,
+            difficulty: "Medium",
+            rating: 4.7,
+            ingredients: [
+                "1 Napa cabbage",
+                "Korean red pepper flakes",
+                "Garlic and ginger",
+                "Fish sauce",
+                "Green onions",
+                "Carrots",
+                "Sea salt"
+            ],
+            instructions: [
+                "Salt cabbage and let sit for 2 hours",
+                "Rinse and drain cabbage",
+                "Mix pepper flakes with garlic and ginger",
+                "Add vegetables and seasonings",
+                "Pack into jars",
+                "Ferment at room temperature",
+                "Refrigerate when ready"
+            ],
+            tips: "Ferment longer for stronger flavor.",
+            nutrition: {
+                calories: "50",
+                protein: "2g",
+                carbs: "12g",
+                fat: "0g"
+            }
+        },
+        {
+            id: 19,
+            name: "Classic Fish & Chips",
+            category: "Dinner",
+            image: "images/fish-and-chips.jpg",
+            prepTime: "20 mins",
+            cookTime: "25 mins",
+            servings: 4,
+            difficulty: "Medium",
+            rating: 4.8,
+            ingredients: [
+                "4 cod fillets",
+                "2 cups flour",
+                "1 bottle beer",
+                "Potatoes for chips",
+                "Salt and vinegar",
+                "Tartar sauce",
+                "Lemon wedges"
+            ],
+            instructions: [
+                "Cut potatoes into chips",
+                "Make beer batter",
+                "Fry chips until golden",
+                "Coat fish in batter",
+                "Fry fish until crispy",
+                "Serve with tartar sauce and lemon"
+            ],
+            tips: "Use cold beer for crispier batter.",
+            nutrition: {
+                calories: "480",
+                protein: "28g",
+                carbs: "52g",
+                fat: "22g"
+            }
+        },
+        {
+            id: 20,
+            name: "Vegetable Salad",
+            category: "Lunch",
+            image: "images/vegetable-salad.jpg",
+            prepTime: "15 mins",
+            cookTime: "0 mins",
+            servings: 4,
+            difficulty: "Easy",
+            rating: 4.5,
+            ingredients: [
+                "Mixed lettuce",
+                "Cherry tomatoes",
+                "Cucumber",
+                "Bell peppers",
+                "Red onion",
+                "Avocado",
+                "Olive oil",
+                "Balsamic vinegar"
+            ],
+            instructions: [
+                "Wash and chop vegetables",
+                "Mix in a large bowl",
+                "Prepare vinaigrette",
+                "Toss with dressing",
+                "Season to taste",
+                "Serve immediately"
+            ],
+            tips: "Add nuts or seeds for extra crunch.",
+            nutrition: {
+                calories: "120",
+                protein: "3g",
+                carbs: "12g",
+                fat: "8g"
+            }
+        },
+        {
+            id: 21,
+            name: "Gulab Jamun",
+            category: "Dessert",
+            image: "images/gulab-jamun.jpg",
+            prepTime: "30 mins",
+            cookTime: "20 mins",
+            servings: 15,
+            difficulty: "Medium",
+            rating: 4.9,
+            ingredients: [
+                "Milk powder",
+                "All-purpose flour",
+                "Ghee",
+                "Milk",
+                "Sugar for syrup",
+                "Cardamom",
+                "Rose water",
+                "Pistachios for garnish"
+            ],
+            instructions: [
+                "Mix milk powder and flour",
+                "Knead into soft dough",
+                "Shape into small balls",
+                "Prepare sugar syrup",
+                "Fry balls until golden",
+                "Soak in warm syrup",
+                "Garnish with pistachios"
+            ],
+            tips: "Keep dough soft but not sticky for perfect texture.",
+            nutrition: {
+                calories: "150",
+                protein: "2g",
+                carbs: "28g",
+                fat: "4g"
+            }
         }
     ];
 
