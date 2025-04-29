@@ -1,13 +1,50 @@
-🍽️ Food Recipes Web App
+# Delicious Recipes App 🍳
 
-A sleek and responsive recipe web application built using HTML, Tailwind CSS, and JavaScript. The app provides a visually appealing interface to explore food categories and search for delicious recipes easily.
+A modern web application for discovering and exploring delicious recipes across various categories including breakfast, lunch, dinner, desserts, drinks, and sides.
 
-🛠️ Tech Stack
+## Screenshots
 
-HTML5
+### Homepage
+![Homepage with Search and Categories](./screenshots/recipehomepage.png)
+*Homepage featuring search functionality and recipe categories*
 
-Tailwind CSS
+### Recipe Categories
+![Recipe Categories](./screenshots/cbreakfast.png)
+![Recipe Categories](./screenshots/cdinner.png)
+*Browse recipes by different meal categories*
 
-JavaScript (ES6)
+### Recipe Details
+![Recipe Details - Chocolate Ice Cream](./screenshots/recipedetails.png)
+*Detailed view of a recipe showing ingredients, instructions, and nutritional information*
 
-Font Awesome (for icons)
+
+
+## Features
+
+- 🔍 Search functionality for recipes and ingredients
+- 📑 Categorized recipe collections
+- 📝 Detailed recipe instructions
+- 🥗 Nutritional information
+- 👨‍🍳 Chef's tips
+- ⏲️ Cooking time and servings information
+- 📱 Responsive design
+
+## Categories Available
+
+- Breakfast
+- Lunch
+- Dinner
+- Dessert
+- Drinks
+- Sides
+
+## Popular Dishes
+
+The application features various popular dishes including:
+- Creamy Pasta Alfredo
+- Butter Chicken
+- Sushi Roll Platter
+- Fried Chicken
+- Paneer Tikka Masala
+- Chicken Biryani
+- Classic Fish & Chips
